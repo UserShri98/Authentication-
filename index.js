@@ -112,11 +112,8 @@ app.get("/logout", (req,res)=>{
     res.redirect("/")
 })
 
+// app.listen(7006, ()=>{
+//     console.log("App is listening");
+// })
 
-
-
-
-
-app.listen(7006, ()=>{
-    console.log("App is listening");
-})
+export default app;
